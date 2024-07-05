@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*헤더부분 시작*/
+header {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+    padding: 15px;
+}
+
+nav a:hover {
+    color: gray;
+    background-color: none
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+/*메인부분 시작*/
+main {
+    background-image: url(../images/카페.jpg);
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.ment {
+    position: relative;
+    top: 295px;
+    left: 45px;
+    font-size: 3em;
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    position: relative;
+    top: 300px;
+    left: 45px;
+    font-size: 1em;
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    position: relative;
+    top: 300px;
+    left: 45px;
+    background-color: skyblue;
+    cursor: pointer;
+    padding: 5px 24px;
+    color: whitesmoke;
+    border: 0;
+    font-weight: 400;
+}
+
+footer {
+    color: gray;
+    font-size: 25px;
+    /* 폰트어썸 아이콘 같이 조절*/
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 10px 50px;
+}
+
+/*드롭다운 부분*/
+
+.container {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+.nav-menu{
+    width: 120px;
+    padding: 10px;
+
+}
+.nav-menu2{
+    width: 120px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.dropdown-content1,
+.dropdown-content2,
+.dropdown-content3 {
+    display: none;
+    /*안보이게*/
+}
+
+.dropbtn1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropbtn2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropbtn3:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown-content1 li a,
+.dropdown-content2 li a,
+.dropdown-content3 li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.dropbtn1,
+.dropbtn2,
+.dropbtn3 {
+    background-color: white;
+    width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+li a:hover{
+    color:skyblue;
+}
+
